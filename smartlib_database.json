@@ -1,0 +1,809 @@
+{
+  "books": [
+    {
+      "id": "bk-101",
+      "isbn": "978-0131103627",
+      "title": "The C Programming Language",
+      "author": "Brian W. Kernighan, Dennis M. Ritchie",
+      "department": "Computer Science & Engineering",
+      "courseCode": "CS102",
+      "courseName": "Structured Programming Fundamentals",
+      "syllabusContext": "Required core textbook for CS102: Module 2 (Memory Management, Pointers & System Structures).",
+      "edition": "2nd Edition",
+      "publisher": "Prentice Hall",
+      "year": 2022,
+      "category": "Computer Science",
+      "description": "The definitive classic reference by the creators of C, essential for systems programming and embedded computing curricula.",
+      "coverAccent": "from-blue-700 to-indigo-900",
+      "totalCopies": 6,
+      "availableCopies": 1,
+      "shelfLocation": {
+        "floorId": "ground",
+        "floorName": "Ground Floor Rotunda",
+        "wing": "North Wing",
+        "aisle": "Aisle B",
+        "rack": "Rack B-02",
+        "bay": 3,
+        "shelf": 2,
+        "callNumber": "QA76.73 .C15 K47 2022",
+        "rfidTag": "RFID-AU-CS-101",
+        "coordinates": {
+          "x": 38,
+          "y": 35
+        }
+      },
+      "timesBorrowed": 84,
+      "copies": [
+        {
+          "barcode": "AU-BC-101-1",
+          "copyNumber": 1,
+          "status": "AVAILABLE"
+        },
+        {
+          "barcode": "AU-BC-101-2",
+          "copyNumber": 2,
+          "status": "BORROWED",
+          "borrowedByRegNo": "AU2023CSE0042",
+          "dueDate": "2026-10-24"
+        },
+        {
+          "barcode": "AU-BC-101-3",
+          "copyNumber": 3,
+          "status": "BORROWED",
+          "borrowedByRegNo": "AU2024ENG0899",
+          "dueDate": "2026-10-22"
+        },
+        {
+          "barcode": "AU-BC-101-4",
+          "copyNumber": 4,
+          "status": "BORROWED",
+          "borrowedByRegNo": "AU2023CSE0112",
+          "dueDate": "2026-10-26"
+        },
+        {
+          "barcode": "AU-BC-101-5",
+          "copyNumber": 5,
+          "status": "BORROWED",
+          "borrowedByRegNo": "AU2024ENG0511",
+          "dueDate": "2026-10-25"
+        },
+        {
+          "barcode": "AU-BC-101-6",
+          "copyNumber": 6,
+          "status": "BORROWED",
+          "borrowedByRegNo": "AU2024ENG0334",
+          "dueDate": "2026-10-28"
+        }
+      ],
+      "waitingList": []
+    },
+    {
+      "id": "bk-102",
+      "isbn": "978-0262033848",
+      "title": "Introduction to Algorithms (CLRS)",
+      "author": "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein",
+      "department": "Computer Science & Engineering",
+      "courseCode": "CS301",
+      "courseName": "Data Structures and Algorithms",
+      "syllabusContext": "Primary reference for CS301 Midterm & End-term exams (Modules 3-5: Dynamic Programming & Graph Algorithms).",
+      "edition": "4th Edition",
+      "publisher": "MIT Press",
+      "year": 2022,
+      "category": "Computer Science",
+      "description": "Comprehensive and rigorous introduction to modern algorithms, extensively referenced across undergraduate and postgraduate CS courses.",
+      "coverAccent": "from-navy-800 to-slate-900",
+      "totalCopies": 5,
+      "availableCopies": 0,
+      "shelfLocation": {
+        "floorId": "ground",
+        "floorName": "Ground Floor Rotunda",
+        "wing": "North Wing",
+        "aisle": "Aisle C",
+        "rack": "Rack C-04",
+        "bay": 1,
+        "shelf": 4,
+        "callNumber": "QA76.6 .C662 2022",
+        "rfidTag": "RFID-AU-CS-102",
+        "coordinates": {
+          "x": 42,
+          "y": 40
+        }
+      },
+      "timesBorrowed": 126,
+      "copies": [
+        {
+          "barcode": "AU-BC-102-1",
+          "copyNumber": 1,
+          "status": "BORROWED",
+          "borrowedByRegNo": "AU2023CSE0018",
+          "dueDate": "2026-10-21"
+        },
+        {
+          "barcode": "AU-BC-102-2",
+          "copyNumber": 2,
+          "status": "BORROWED",
+          "borrowedByRegNo": "AU2023CSE0099",
+          "dueDate": "2026-10-23"
+        },
+        {
+          "barcode": "AU-BC-102-3",
+          "copyNumber": 3,
+          "status": "BORROWED",
+          "borrowedByRegNo": "AU2024ENG0201",
+          "dueDate": "2026-10-25"
+        },
+        {
+          "barcode": "AU-BC-102-4",
+          "copyNumber": 4,
+          "status": "BORROWED",
+          "borrowedByRegNo": "AU2024ENG0412",
+          "dueDate": "2026-10-27"
+        },
+        {
+          "barcode": "AU-BC-102-5",
+          "copyNumber": 5,
+          "status": "BORROWED",
+          "borrowedByRegNo": "AU2024ENG0788",
+          "dueDate": "2026-10-29"
+        }
+      ],
+      "waitingList": [
+        {
+          "registrationNumber": "AU2024ENG0123",
+          "studentName": "Krittika Sharma",
+          "gmail": "krittikaa13@gmail.com",
+          "requestedAt": 1792396365417,
+          "priority": 1,
+          "notified": false
+        },
+        {
+          "registrationNumber": "AU2024ENG0899",
+          "studentName": "Arjun Verma",
+          "gmail": "arjun.verma@alliance.edu.in",
+          "requestedAt": 1792417965417,
+          "priority": 2,
+          "notified": false
+        }
+      ]
+    },
+    {
+      "id": "bk-103",
+      "isbn": "978-0134093413",
+      "title": "Operating System Concepts (Silberschatz Dinosaur Book)",
+      "author": "Abraham Silberschatz, Peter B. Galvin, Greg Gagne",
+      "department": "Computer Science & Engineering",
+      "courseCode": "CS304",
+      "courseName": "Operating Systems & Concurrency",
+      "syllabusContext": "Essential textbook for CS304 Units 2 & 4 (Process Synchronization, Deadlocks, Virtual Memory Management).",
+      "edition": "10th Edition",
+      "publisher": "John Wiley & Sons",
+      "year": 2023,
+      "category": "Computer Science",
+      "description": "Illustrated guide covering processes, threads, CPU scheduling, file systems, distributed storage, and operating system virtualization.",
+      "coverAccent": "from-amber-700 to-amber-950",
+      "totalCopies": 4,
+      "availableCopies": 2,
+      "shelfLocation": {
+        "floorId": "ground",
+        "floorName": "Ground Floor Rotunda",
+        "wing": "East Stacks",
+        "aisle": "Aisle E",
+        "rack": "Rack E-01",
+        "bay": 2,
+        "shelf": 3,
+        "callNumber": "QA76.76.O63 S558 2023",
+        "rfidTag": "RFID-AU-CS-103",
+        "coordinates": {
+          "x": 75,
+          "y": 50
+        }
+      },
+      "timesBorrowed": 92,
+      "copies": [
+        {
+          "barcode": "AU-BC-103-1",
+          "copyNumber": 1,
+          "status": "AVAILABLE"
+        },
+        {
+          "barcode": "AU-BC-103-2",
+          "copyNumber": 2,
+          "status": "AVAILABLE"
+        },
+        {
+          "barcode": "AU-BC-103-3",
+          "copyNumber": 3,
+          "status": "BORROWED",
+          "borrowedByRegNo": "AU2023CSE0155",
+          "dueDate": "2026-10-23"
+        },
+        {
+          "barcode": "AU-BC-103-4",
+          "copyNumber": 4,
+          "status": "BORROWED",
+          "borrowedByRegNo": "AU2024ENG0012",
+          "dueDate": "2026-10-27"
+        }
+      ],
+      "waitingList": []
+    },
+    {
+      "id": "bk-104",
+      "isbn": "978-0262035613",
+      "title": "Deep Learning",
+      "author": "Ian Goodfellow, Yoshua Bengio, Aaron Courville",
+      "department": "Artificial Intelligence & Data Science",
+      "courseCode": "AI405",
+      "courseName": "Neural Networks & Deep Learning",
+      "syllabusContext": "Textbook for AI405 (Convolutional Architectures, Optimization for Deep Models, Sequence Modeling).",
+      "edition": "1st Edition",
+      "publisher": "MIT Press",
+      "year": 2021,
+      "category": "Artificial Intelligence",
+      "description": "An authoritative mathematical introduction to deep neural networks, unsupervised representations, and deep generative models.",
+      "coverAccent": "from-emerald-800 to-slate-900",
+      "totalCopies": 4,
+      "availableCopies": 1,
+      "shelfLocation": {
+        "floorId": "first",
+        "floorName": "First Floor - North Wing",
+        "wing": "North Wing",
+        "aisle": "Aisle N-2",
+        "rack": "Rack N2-08",
+        "bay": 4,
+        "shelf": 1,
+        "callNumber": "Q325.5 .G66 2021",
+        "rfidTag": "RFID-AU-AI-104",
+        "coordinates": {
+          "x": 45,
+          "y": 25
+        }
+      },
+      "timesBorrowed": 79,
+      "copies": [
+        {
+          "barcode": "AU-BC-104-1",
+          "copyNumber": 1,
+          "status": "AVAILABLE"
+        },
+        {
+          "barcode": "AU-BC-104-2",
+          "copyNumber": 2,
+          "status": "BORROWED",
+          "borrowedByRegNo": "AU2023CSE0088",
+          "dueDate": "2026-10-22"
+        },
+        {
+          "barcode": "AU-BC-104-3",
+          "copyNumber": 3,
+          "status": "BORROWED",
+          "borrowedByRegNo": "AU2024ENG0441",
+          "dueDate": "2026-10-25"
+        },
+        {
+          "barcode": "AU-BC-104-4",
+          "copyNumber": 4,
+          "status": "BORROWED",
+          "borrowedByRegNo": "AU2023CSE0204",
+          "dueDate": "2026-10-28"
+        }
+      ],
+      "waitingList": []
+    },
+    {
+      "id": "bk-105",
+      "isbn": "978-0078022159",
+      "title": "Database System Concepts",
+      "author": "Abraham Silberschatz, Henry F. Korth, S. Sudarshan",
+      "department": "Computer Science & Engineering",
+      "courseCode": "CS302",
+      "courseName": "Database Management Systems",
+      "syllabusContext": "Mandatory syllabus text for CS302 (Relational Model, Normalization Forms BCNF/3NF, ACID Transactions).",
+      "edition": "7th Edition",
+      "publisher": "McGraw-Hill",
+      "year": 2023,
+      "category": "Computer Science",
+      "description": "Fundamental concepts of database design, languages, and system implementation, with SQL:2016 and modern NoSQL paradigms.",
+      "coverAccent": "from-sky-800 to-indigo-950",
+      "totalCopies": 5,
+      "availableCopies": 0,
+      "shelfLocation": {
+        "floorId": "ground",
+        "floorName": "Ground Floor Rotunda",
+        "wing": "East Stacks",
+        "aisle": "Aisle E",
+        "rack": "Rack E-03",
+        "bay": 1,
+        "shelf": 2,
+        "callNumber": "QA76.9.D3 S56 2023",
+        "rfidTag": "RFID-AU-CS-105",
+        "coordinates": {
+          "x": 78,
+          "y": 55
+        }
+      },
+      "timesBorrowed": 110,
+      "copies": [
+        {
+          "barcode": "AU-BC-105-1",
+          "copyNumber": 1,
+          "status": "BORROWED",
+          "borrowedByRegNo": "AU2024ENG0123",
+          "dueDate": "2026-10-23"
+        },
+        {
+          "barcode": "AU-BC-105-2",
+          "copyNumber": 2,
+          "status": "BORROWED",
+          "borrowedByRegNo": "AU2023CSE0011",
+          "dueDate": "2026-10-22"
+        },
+        {
+          "barcode": "AU-BC-105-3",
+          "copyNumber": 3,
+          "status": "BORROWED",
+          "borrowedByRegNo": "AU2024ENG0912",
+          "dueDate": "2026-10-24"
+        },
+        {
+          "barcode": "AU-BC-105-4",
+          "copyNumber": 4,
+          "status": "BORROWED",
+          "borrowedByRegNo": "AU2023CSE0415",
+          "dueDate": "2026-10-25"
+        },
+        {
+          "barcode": "AU-BC-105-5",
+          "copyNumber": 5,
+          "status": "BORROWED",
+          "borrowedByRegNo": "AU2024ENG0289",
+          "dueDate": "2026-10-29"
+        }
+      ],
+      "waitingList": [
+        {
+          "registrationNumber": "AU2023CSE0112",
+          "studentName": "Pooja Iyer",
+          "gmail": "pooja.iyer@alliance.edu.in",
+          "requestedAt": 1792338765417,
+          "priority": 1,
+          "notified": false
+        }
+      ]
+    },
+    {
+      "id": "bk-106",
+      "isbn": "978-0132350884",
+      "title": "Clean Code: A Handbook of Agile Software Craftsmanship",
+      "author": "Robert C. Martin",
+      "department": "Computer Science & Engineering",
+      "courseCode": "CS305",
+      "courseName": "Software Engineering & Practices",
+      "syllabusContext": "Recommended practical reading for CS305 Software Engineering Laboratory Capstone Project.",
+      "edition": "1st Edition",
+      "publisher": "Prentice Hall",
+      "year": 2020,
+      "category": "Software Engineering",
+      "description": "Principles, patterns, and practices of writing clean, maintainable, self-documenting code with real-world case studies.",
+      "coverAccent": "from-cyan-900 to-slate-900",
+      "totalCopies": 4,
+      "availableCopies": 2,
+      "shelfLocation": {
+        "floorId": "first",
+        "floorName": "First Floor - South Wing",
+        "wing": "South Wing",
+        "aisle": "Aisle S-1",
+        "rack": "Rack S1-05",
+        "bay": 3,
+        "shelf": 2,
+        "callNumber": "QA76.76.D47 M37 2020",
+        "rfidTag": "RFID-AU-SE-106",
+        "coordinates": {
+          "x": 50,
+          "y": 75
+        }
+      },
+      "timesBorrowed": 68,
+      "copies": [
+        {
+          "barcode": "AU-BC-106-1",
+          "copyNumber": 1,
+          "status": "AVAILABLE"
+        },
+        {
+          "barcode": "AU-BC-106-2",
+          "copyNumber": 2,
+          "status": "AVAILABLE"
+        },
+        {
+          "barcode": "AU-BC-106-3",
+          "copyNumber": 3,
+          "status": "BORROWED",
+          "borrowedByRegNo": "AU2024ENG0101",
+          "dueDate": "2026-10-24"
+        },
+        {
+          "barcode": "AU-BC-106-4",
+          "copyNumber": 4,
+          "status": "BORROWED",
+          "borrowedByRegNo": "AU2023CSE0318",
+          "dueDate": "2026-10-26"
+        }
+      ],
+      "waitingList": []
+    },
+    {
+      "id": "bk-107",
+      "isbn": "978-1119577577",
+      "title": "Principles of Corporate Finance",
+      "author": "Richard A. Brealey, Stewart C. Myers, Franklin Allen",
+      "department": "Alliance School of Business",
+      "courseCode": "MGT201",
+      "courseName": "Corporate Finance & Valuation",
+      "syllabusContext": "Prescribed syllabus core textbook for MBA / BBA Finance Major (Modules 1-4).",
+      "edition": "13th Edition",
+      "publisher": "McGraw-Hill Education",
+      "year": 2022,
+      "category": "Management",
+      "description": "The world standard for corporate financial theory, capital budgeting, risk hedging, and financial decision analysis.",
+      "coverAccent": "from-emerald-900 to-teal-950",
+      "totalCopies": 4,
+      "availableCopies": 2,
+      "shelfLocation": {
+        "floorId": "second",
+        "floorName": "Second Floor Mezzanine",
+        "wing": "West Reading Hall",
+        "aisle": "Aisle M-4",
+        "rack": "Rack M4-02",
+        "bay": 2,
+        "shelf": 3,
+        "callNumber": "HG4026 .B67 2022",
+        "rfidTag": "RFID-AU-MGT-107",
+        "coordinates": {
+          "x": 30,
+          "y": 65
+        }
+      },
+      "timesBorrowed": 52,
+      "copies": [
+        {
+          "barcode": "AU-BC-107-1",
+          "copyNumber": 1,
+          "status": "AVAILABLE"
+        },
+        {
+          "barcode": "AU-BC-107-2",
+          "copyNumber": 2,
+          "status": "AVAILABLE"
+        },
+        {
+          "barcode": "AU-BC-107-3",
+          "copyNumber": 3,
+          "status": "BORROWED",
+          "borrowedByRegNo": "AU2023BBA0019",
+          "dueDate": "2026-10-25"
+        },
+        {
+          "barcode": "AU-BC-107-4",
+          "copyNumber": 4,
+          "status": "BORROWED",
+          "borrowedByRegNo": "AU2024MBA0120",
+          "dueDate": "2026-10-28"
+        }
+      ],
+      "waitingList": []
+    },
+    {
+      "id": "bk-108",
+      "isbn": "978-0199540700",
+      "title": "Constitutional Law of India",
+      "author": "Dr. H. M. Seervai, F. S. Nariman",
+      "department": "Alliance School of Law",
+      "courseCode": "LAW105",
+      "courseName": "Indian Constitutional Jurisprudence",
+      "syllabusContext": "Required legal treatise for Constitutional Law Semester III Moot Court Competitions.",
+      "edition": "4th Edition",
+      "publisher": "Universal Law Publishing",
+      "year": 2021,
+      "category": "Law",
+      "description": "Monumental critical commentary analyzing judicial precedents, constitutional amendments, and landmark Supreme Court rulings.",
+      "coverAccent": "from-rose-900 to-slate-950",
+      "totalCopies": 3,
+      "availableCopies": 1,
+      "shelfLocation": {
+        "floorId": "second",
+        "floorName": "Second Floor Mezzanine",
+        "wing": "East Stacks",
+        "aisle": "Aisle L-1",
+        "rack": "Rack L1-01",
+        "bay": 1,
+        "shelf": 1,
+        "callNumber": "KNS1744.5 1950 .S44 2021",
+        "rfidTag": "RFID-AU-LAW-108",
+        "coordinates": {
+          "x": 70,
+          "y": 30
+        }
+      },
+      "timesBorrowed": 41,
+      "copies": [
+        {
+          "barcode": "AU-BC-108-1",
+          "copyNumber": 1,
+          "status": "AVAILABLE"
+        },
+        {
+          "barcode": "AU-BC-108-2",
+          "copyNumber": 2,
+          "status": "BORROWED",
+          "borrowedByRegNo": "AU2023LLB0045",
+          "dueDate": "2026-10-23"
+        },
+        {
+          "barcode": "AU-BC-108-3",
+          "copyNumber": 3,
+          "status": "BORROWED",
+          "borrowedByRegNo": "AU2024BA0088",
+          "dueDate": "2026-10-27"
+        }
+      ],
+      "waitingList": []
+    }
+  ],
+  "students": [
+    {
+      "registrationNumber": "AU2024ENG0123",
+      "name": "Krittika Sharma",
+      "gmail": "krittikaa13@gmail.com",
+      "department": "Computer Science & Engineering",
+      "semester": 4,
+      "degree": "B.Tech Computer Science",
+      "activeLoans": [
+        {
+          "loanId": "LN-2026-8812",
+          "bookId": "bk-105",
+          "bookTitle": "Database System Concepts (7th Ed)",
+          "author": "Silberschatz, Korth, Sudarshan",
+          "barcode": "AU-BC-105-1",
+          "borrowedDate": "2026-10-09",
+          "dueDate": "2026-10-23",
+          "renewalsRemaining": 2,
+          "callNumber": "QA76.9.D3 S56 2023",
+          "shelfLocation": {
+            "floorId": "ground",
+            "floorName": "Ground Floor Rotunda",
+            "wing": "East Stacks",
+            "aisle": "Aisle E",
+            "rack": "Rack E-03",
+            "bay": 1,
+            "shelf": 2,
+            "callNumber": "QA76.9.D3 S56 2023",
+            "rfidTag": "RFID-AU-CS-105",
+            "coordinates": {
+              "x": 78,
+              "y": 55
+            }
+          },
+          "isOverdue": false,
+          "daysRemaining": 4
+        }
+      ],
+      "borrowingHistory": [
+        {
+          "historyId": "HIST-101",
+          "bookId": "bk-101",
+          "bookTitle": "The C Programming Language",
+          "author": "Brian W. Kernighan, Dennis M. Ritchie",
+          "borrowedDate": "2026-09-01",
+          "returnedDate": "2026-09-14",
+          "rating": 5
+        },
+        {
+          "historyId": "HIST-102",
+          "bookId": "bk-106",
+          "bookTitle": "Clean Code: A Handbook of Agile Craftsmanship",
+          "author": "Robert C. Martin",
+          "borrowedDate": "2026-09-18",
+          "returnedDate": "2026-10-02",
+          "rating": 5
+        }
+      ],
+      "activeReservations": [
+        {
+          "reservationId": "RES-901",
+          "bookId": "bk-102",
+          "bookTitle": "Introduction to Algorithms (CLRS)",
+          "author": "Cormen, Leiserson, Rivest, Stein",
+          "reservedAt": "2026-10-19T07:52:45.417Z",
+          "queuePosition": 1,
+          "status": "WAITING",
+          "pickupLocation": "Ground Floor Central Circulation Desk",
+          "callNumber": "QA76.6 .C662 2022"
+        }
+      ],
+      "notifications": [
+        {
+          "id": "notif-1",
+          "title": "Welcome to SmartLib Portal",
+          "message": "Your student account is authenticated. Access syllabus book recommendations, verified shelf navigation, and automated return alerts.",
+          "type": "SYSTEM",
+          "timestamp": 1792417965418,
+          "read": false,
+          "priority": "NORMAL"
+        },
+        {
+          "id": "notif-2",
+          "title": "Loan Reminder: Due in 4 Days",
+          "message": "\"Database System Concepts\" is due on 23 Oct 2026. You can renew online once before the due date.",
+          "type": "DEADLINE",
+          "timestamp": 1792407165418,
+          "read": false,
+          "priority": "NORMAL",
+          "bookId": "bk-105"
+        }
+      ],
+      "quizAttempts": [],
+      "quest": {
+        "level": 3,
+        "xp": 450,
+        "xpNextLevel": 600,
+        "title": "Junior Scholar",
+        "missions": [
+          {
+            "id": "m-1",
+            "title": "Syllabus Explorer",
+            "description": "Read or borrow 2 core reference books aligned with your Semester IV syllabus.",
+            "progress": 2,
+            "maxProgress": 2,
+            "xpReward": 150,
+            "completed": true,
+            "badgeIcon": "GraduationCap",
+            "category": "SYLLABUS"
+          },
+          {
+            "id": "m-2",
+            "title": "Smart Shelf Pioneer",
+            "description": "Locate a physical book using the interactive floorplan and verify shelf location.",
+            "progress": 1,
+            "maxProgress": 2,
+            "xpReward": 100,
+            "completed": false,
+            "badgeIcon": "Compass",
+            "category": "EXPLORATION"
+          },
+          {
+            "id": "m-3",
+            "title": "Flawless Return Streak",
+            "description": "Return or renew 3 borrowed titles on or before deadline without incurring overdue fees.",
+            "progress": 2,
+            "maxProgress": 3,
+            "xpReward": 120,
+            "completed": false,
+            "badgeIcon": "Clock",
+            "category": "HABIT"
+          },
+          {
+            "id": "m-4",
+            "title": "Orientation Scholar",
+            "description": "Pass the Library Orientation Quiz with at least 80% score.",
+            "progress": 0,
+            "maxProgress": 1,
+            "xpReward": 100,
+            "completed": false,
+            "badgeIcon": "Award",
+            "category": "RESEARCH"
+          }
+        ],
+        "badges": [
+          {
+            "id": "b-1",
+            "title": "Library First Step",
+            "description": "Authenticated via AU Central Library OTP Portal.",
+            "icon": "KeyRound",
+            "unlockedAt": "2026-09-01"
+          },
+          {
+            "id": "b-2",
+            "title": "Syllabus Pioneer",
+            "description": "Borrowed first official semester curriculum textbook.",
+            "icon": "BookMarked",
+            "unlockedAt": "2026-09-02"
+          },
+          {
+            "id": "b-3",
+            "title": "Punctual Reader",
+            "description": "100% on-time return rate maintained across loans.",
+            "icon": "Award",
+            "unlockedAt": "2026-10-02"
+          }
+        ]
+      }
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "q-1",
+      "question": "Under Alliance University Central Library borrowing regulations, what is the standard loan period for undergraduate students?",
+      "options": [
+        "7 days",
+        "14 days (with up to 2 online renewals)",
+        "30 days",
+        "Until end of semester"
+      ],
+      "correctIndex": 1,
+      "explanation": "Students receive a 14-day loan period for general circulation titles, eligible for up to 2 online renewals unless requested on another student waiting list.",
+      "category": "ORIENTATION",
+      "enabled": true
+    },
+    {
+      "id": "q-2",
+      "question": "In the Library of Congress classification system used by Alliance Central Library, what subject do Call Numbers starting with \"QA\" represent?",
+      "options": [
+        "Philosophy & Psychology",
+        "Mathematics, Algorithms & Computer Science",
+        "Law & Jurisprudence",
+        "Fine Arts & Architecture"
+      ],
+      "correctIndex": 1,
+      "explanation": "QA is the Library of Congress subclass for Mathematics and Computer Science (e.g. QA76 covers computing, programming, and algorithms).",
+      "category": "RESEARCH",
+      "enabled": true
+    },
+    {
+      "id": "q-3",
+      "question": "What automated circulation and security technology is embedded across all 55,000 sq.ft of the Alliance Central Library?",
+      "options": [
+        "Manual register checkout",
+        "100% RFID Smart Tags and Barcode Automation",
+        "Optical magnetic strips only",
+        "NFC phone tags only"
+      ],
+      "correctIndex": 1,
+      "explanation": "Alliance University Central Library is fully automated with high-frequency RFID tags and barcode scanners for contact-free checkouts, returns, and shelf inventory verification.",
+      "category": "ORIENTATION",
+      "enabled": true
+    },
+    {
+      "id": "q-4",
+      "question": "Which core reference textbook is prescribed for CS301 (Data Structures and Algorithms) Units 3 & 4 covering Dynamic Programming & Graphs?",
+      "options": [
+        "Introduction to Algorithms (CLRS)",
+        "Head First Java",
+        "Clean Code by Robert C. Martin",
+        "Automating the Boring Stuff with Python"
+      ],
+      "correctIndex": 0,
+      "explanation": "Introduction to Algorithms by Cormen, Leiserson, Rivest, and Stein (CLRS) is the syllabus primary reference for advanced algorithms and data structures.",
+      "category": "SYLLABUS",
+      "courseCode": "CS301",
+      "enabled": true
+    },
+    {
+      "id": "q-5",
+      "question": "When a reserved book is checked in and SmartRestock assigns it to you, how long is the physical copy held at the Circulation Desk before moving to the next person?",
+      "options": [
+        "12 hours",
+        "24 hours",
+        "48 hours",
+        "7 calendar days"
+      ],
+      "correctIndex": 2,
+      "explanation": "SmartRestock holds the physical copy at the Central Circulation Desk for exactly 48 hours from the timestamp of availability before reallocating to the next student in queue.",
+      "category": "ORIENTATION",
+      "enabled": true
+    }
+  ],
+  "quizAttempts": [],
+  "availabilityEvents": [],
+  "restockActivityLog": [
+    {
+      "id": "22685cf9-e40a-43ae-9720-2a44d9b06df9",
+      "bookId": "SYSTEM",
+      "bookTitle": "Admin Session",
+      "action": "ADMIN_LOGIN",
+      "timestamp": 1792425174636,
+      "details": "Administrator admin@alliance.edu.in authenticated into Demo Librarian Console."
+    }
+  ],
+  "lastSaved": "2026-10-19T15:52:54.636Z"
+}

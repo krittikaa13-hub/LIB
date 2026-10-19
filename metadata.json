@@ -1,0 +1,8 @@
+{
+  "name": "SmartLib - Alliance University",
+  "description": "SmartLib Student Authentication Portal for Alliance University Central Library with Student Registration Number and secure Gmail OTP verification.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
